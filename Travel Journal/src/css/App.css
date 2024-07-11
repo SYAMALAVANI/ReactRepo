@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(60 117 129);
+}
+
+.title-container{
+  flex-direction: row;
+  display: flex;
+}
+.nav-img{
+  height: 35px;
+  margin-right: 9px;
+  filter: invert(1);
+}
+
+.nav-p{
+  font-size: 25px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+.content-container{
+  display: flex;
+  width: 550px;
+  height: 180px;
+  border-radius: 9px;
+  margin: 30px auto;
+  background-color: rgb(242,236,236);
+  box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.466);
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.image{
+  width: 150px;
+  height: 180px;
+  border-radius: 9px;
+}
+.right-container{
+  margin: 8px 20px;
+  margin-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.place-location{
+   display: flex;
+}
+
+.location-pointer{
+  height: 10px;
+  margin-top: 3px;
+}
+
+.city-name{
+  font-size: 15px;
+  color: rgb(65,65,65);
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+
+.link{
+  font-size: 10px;
+  margin-left: 14px;
+  color: gray;
+  margin-top: 3px;
+}
+
+.heading{
+
+}
+
+.title{
+  font-size: 23px;
+  color: rgb(53, 52, 52);
+  margin: 0px 0px 4px 1px;
+}
+
+.content h4{
+  font-size: 12px;
+  margin-bottom: 7px;
+  color: rgb(53, 52, 52);
+}
+
+.content p{
+  font-size: 12px;
+  color: rgb(53, 52, 52);
+  margin-right: 7px;
+}
