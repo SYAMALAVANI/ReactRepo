@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+
+.header-image1
+{   
+    padding-left: 10px;
+    height: 60px;
+} 
+
+.header-image2
+{   
+    padding-left: 10px;
+    height: 60px; 
+}
+.header-title {
+    
+    font-weight: normal;
+    font-size: 2rem;
+    color: white;
+}
